@@ -20,6 +20,16 @@
 		EA77C02616F78D790067D39B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77C02516F78D790067D39B /* DetailViewController.m */; };
 		EA77C02916F78D790067D39B /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA77C02716F78D790067D39B /* MasterViewController.xib */; };
 		EA77C02C16F78D790067D39B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA77C02A16F78D790067D39B /* DetailViewController.xib */; };
+		EA77C03716F798BD0067D39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA77C00916F78D790067D39B /* UIKit.framework */; };
+		EA77C03816F798BD0067D39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA77C00B16F78D790067D39B /* Foundation.framework */; };
+		EA77C03916F798BD0067D39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA77C00D16F78D790067D39B /* CoreGraphics.framework */; };
+		EA77C03F16F798BD0067D39B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA77C03D16F798BD0067D39B /* InfoPlist.strings */; };
+		EA77C04116F798BD0067D39B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77C04016F798BD0067D39B /* main.m */; };
+		EA77C04716F798BD0067D39B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA77C04616F798BD0067D39B /* Default.png */; };
+		EA77C04916F798BD0067D39B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA77C04816F798BD0067D39B /* Default@2x.png */; };
+		EA77C04B16F798BD0067D39B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA77C04A16F798BD0067D39B /* Default-568h@2x.png */; };
+		EA77C05216F7992A0067D39B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA77C05016F799010067D39B /* GHUnitIOS.framework */; };
+		EA77C05616F799AD0067D39B /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77C05416F799A90067D39B /* ExampleTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +52,16 @@
 		EA77C02516F78D790067D39B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		EA77C02816F78D790067D39B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		EA77C02B16F78D790067D39B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		EA77C03616F798BD0067D39B /* GSTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA77C03C16F798BD0067D39B /* GHTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHTests-Info.plist"; sourceTree = "<group>"; };
+		EA77C03E16F798BD0067D39B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA77C04016F798BD0067D39B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA77C04216F798BD0067D39B /* GHTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHTests-Prefix.pch"; sourceTree = "<group>"; };
+		EA77C04616F798BD0067D39B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA77C04816F798BD0067D39B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA77C04A16F798BD0067D39B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA77C05016F799010067D39B /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = vendor/GHUnitIOS.framework; sourceTree = "<group>"; };
+		EA77C05416F799A90067D39B /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +75,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA77C03316F798BD0067D39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77C03716F798BD0067D39B /* UIKit.framework in Frameworks */,
+				EA77C03816F798BD0067D39B /* Foundation.framework in Frameworks */,
+				EA77C03916F798BD0067D39B /* CoreGraphics.framework in Frameworks */,
+				EA77C05216F7992A0067D39B /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				EA77C00F16F78D790067D39B /* GoogleSearcher */,
+				EA77C03A16F798BD0067D39B /* GSTests */,
 				EA77C00816F78D790067D39B /* Frameworks */,
 				EA77C00716F78D790067D39B /* Products */,
 			);
@@ -71,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				EA77C00616F78D790067D39B /* GoogleSearcher.app */,
+				EA77C03616F798BD0067D39B /* GSTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +111,7 @@
 		EA77C00816F78D790067D39B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA77C05016F799010067D39B /* GHUnitIOS.framework */,
 				EA77C00916F78D790067D39B /* UIKit.framework */,
 				EA77C00B16F78D790067D39B /* Foundation.framework */,
 				EA77C00D16F78D790067D39B /* CoreGraphics.framework */,
@@ -115,6 +149,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EA77C03A16F798BD0067D39B /* GSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA77C03B16F798BD0067D39B /* Supporting Files */,
+				EA77C05416F799A90067D39B /* ExampleTest.m */,
+			);
+			name = GSTests;
+			path = GHTests;
+			sourceTree = "<group>";
+		};
+		EA77C03B16F798BD0067D39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA77C03C16F798BD0067D39B /* GHTests-Info.plist */,
+				EA77C03D16F798BD0067D39B /* InfoPlist.strings */,
+				EA77C04016F798BD0067D39B /* main.m */,
+				EA77C04216F798BD0067D39B /* GHTests-Prefix.pch */,
+				EA77C04616F798BD0067D39B /* Default.png */,
+				EA77C04816F798BD0067D39B /* Default@2x.png */,
+				EA77C04A16F798BD0067D39B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +191,23 @@
 			name = GoogleSearcher;
 			productName = GoogleSearcher;
 			productReference = EA77C00616F78D790067D39B /* GoogleSearcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA77C03516F798BD0067D39B /* GSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA77C04E16F798BD0067D39B /* Build configuration list for PBXNativeTarget "GSTests" */;
+			buildPhases = (
+				EA77C03216F798BD0067D39B /* Sources */,
+				EA77C03316F798BD0067D39B /* Frameworks */,
+				EA77C03416F798BD0067D39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSTests;
+			productName = GHTests;
+			productReference = EA77C03616F798BD0067D39B /* GSTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,6 +232,7 @@
 			projectRoot = "";
 			targets = (
 				EA77C00516F78D790067D39B /* GoogleSearcher */,
+				EA77C03516F798BD0067D39B /* GSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +251,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA77C03416F798BD0067D39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77C03F16F798BD0067D39B /* InfoPlist.strings in Resources */,
+				EA77C04716F798BD0067D39B /* Default.png in Resources */,
+				EA77C04916F798BD0067D39B /* Default@2x.png in Resources */,
+				EA77C04B16F798BD0067D39B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -186,6 +273,15 @@
 				EA77C01A16F78D790067D39B /* AppDelegate.m in Sources */,
 				EA77C02316F78D790067D39B /* MasterViewController.m in Sources */,
 				EA77C02616F78D790067D39B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77C03216F798BD0067D39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77C04116F798BD0067D39B /* main.m in Sources */,
+				EA77C05616F799AD0067D39B /* ExampleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +310,14 @@
 				EA77C02B16F78D790067D39B /* en */,
 			);
 			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		EA77C03D16F798BD0067D39B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA77C03E16F798BD0067D39B /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,6 +384,10 @@
 		EA77C03016F78D790067D39B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleSearcher/GoogleSearcher-Prefix.pch";
 				INFOPLIST_FILE = "GoogleSearcher/GoogleSearcher-Info.plist";
@@ -291,9 +399,53 @@
 		EA77C03116F78D790067D39B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleSearcher/GoogleSearcher-Prefix.pch";
 				INFOPLIST_FILE = "GoogleSearcher/GoogleSearcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA77C04C16F798BD0067D39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHTests/GHTests-Prefix.pch";
+				INFOPLIST_FILE = "GHTests/GHTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA77C04D16F798BD0067D39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHTests/GHTests-Prefix.pch";
+				INFOPLIST_FILE = "GHTests/GHTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -316,6 +468,15 @@
 			buildConfigurations = (
 				EA77C03016F78D790067D39B /* Debug */,
 				EA77C03116F78D790067D39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA77C04E16F798BD0067D39B /* Build configuration list for PBXNativeTarget "GSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA77C04C16F798BD0067D39B /* Debug */,
+				EA77C04D16F798BD0067D39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
